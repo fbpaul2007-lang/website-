@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalCall - The World is One Call Away</title>
+    <style>
+        :root {
+            --bg-color: #0b1120;
+            --text-color: #ffffff;
+            --accent-color: #f59e0b;
+            --secondary-text: #94a3b8;
+            --button-bg: #f59e0b;
+            --button-text: #000000;
+            --card-bg: #1e293b;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 2rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo::before {
+            content: '🌐';
+        }
+
+        .btn {
+            background-color: var(--button-bg);
+            color: var(--button-text);
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        main {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .tag {
+            background-color: rgba(245, 158, 11, 0.2);
+            color: var(--accent-color);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+
+        p {
+            color: var(--secondary-text);
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto 2.5rem auto;
+            line-height: 1.6;
+        }
+
+        .hero-btn {
+            font-size: 1.1rem;
+            padding: 1rem 2.5rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 5rem;
+            text-align: left;
+        }
+
+        .feature-card {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">GlobalCall</div>
+            <a href="#" class="btn">Sign Up</a>
+        </header>
+
+        <main>
+            <div class="tag">4 free international calls</div>
+            <h1>The world is one call away</h1>
+            <p>GlobalCall turns any browser into an international phone. Verify your number, pick a country and talk in HD – with clear per-minute pricing and no contracts.</p>
+            <a href="#" class="btn hero-btn">Sign Up</a>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>190+ countries</h3>
+                    <p>Dial any destination with a searchable country selector and automatic country codes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>HD voice quality</h3>
+                    <p>Adaptive codecs and a live quality indicator so you always know how the line is holding up.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Pay per minute</h3>
+                    <p>No contracts, no line rental. Top up when you need to and see every cent you spend.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Verified sign-in</h3>
+                    <p>Phone verification over SMS or WhatsApp with expiring one-time codes and rate limiting.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Full call controls</h3>
+                    <p>Mute, speaker, in-call keypad, call timer and one-tap redial from your recent calls.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Human support</h3>
+                    <p>Real people in the Help Center, seven days a week, in the language you prefer.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
+
+```
